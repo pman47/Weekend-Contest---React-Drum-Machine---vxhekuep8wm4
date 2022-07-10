@@ -63,7 +63,7 @@ function ControlScreen({ volume, volumeHandler, on, onHandler }) {
 
 function App() {
   const [volume, setVolume] = useState(0);
-  const [on, setOn] = useState(true);
+  const [on, setOn] = useState(false);
 
   const volumeHandler = (val) => {
     setVolume(val);
